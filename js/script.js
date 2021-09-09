@@ -3,7 +3,11 @@ document.addEventListener('dblclick', function (e) {
 });
 
 
-
+let video = document.getElementById('video');
+video.addEventListener('pause', () => {
+video.play();
+alert(play);
+})
   var video = document.querySelectorAll('video');
 
   video.addEventListener( 'pause' , function () {
