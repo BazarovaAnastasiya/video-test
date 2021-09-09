@@ -11,7 +11,7 @@ document.addEventListener('dblclick', function (e) {
             video.play();}
   });
   window.addEventListener('message', function (event) {
-     if (event.data.method === 'play') {
+     if (event.data.method === 'pause') {
          document.querySelectorAll('video').play();
      }
 });
