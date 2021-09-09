@@ -1,7 +1,9 @@
 document.addEventListener('dblclick', function (e) {
   return false; 
 });
-
+window.onload = function() {
+   alert("привет мир");
+}
 
 
   var video = document.querySelectorAll('video');
