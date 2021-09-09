@@ -1,0 +1,11 @@
+<svg width="185" height="82" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#FFF" fill-rule="evenodd" font-weight="bold">
+        <text font-family="OpenSans-Bold, Open Sans" font-size="60" transform="translate(.976)">
+                        <tspan x="0" y="64">№1</tspan>
+                    </text>
+        <text font-family="Roboto-Bold, Roboto" font-size="22" transform="translate(.976)">
+                        <tspan x="101.463" y="38">Editors&apos; </tspan>
+                        <tspan x="101.463" y="63">Choice</tspan>
+                    </text>
+    </g>
+</svg>

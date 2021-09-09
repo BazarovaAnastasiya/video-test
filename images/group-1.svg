@@ -1,0 +1,11 @@
+<svg width="186" height="82" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#FFF" fill-rule="evenodd" font-weight="bold">
+        <text font-family="OpenSans-Bold, Open Sans" font-size="60" transform="translate(.979)">
+                        <tspan x="0" y="64">4.9</tspan>
+                    </text>
+        <text font-family="Roboto-Bold, Roboto" font-size="22" transform="translate(.979)">
+                        <tspan x="101.463" y="39">250 000</tspan>
+                        <tspan x="101.463" y="64">Reviews</tspan>
+                    </text>
+    </g>
+</svg>
