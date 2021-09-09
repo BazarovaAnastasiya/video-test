@@ -4,7 +4,11 @@ document.addEventListener('dblclick', function (e) {
 
 
 window.onload = function() {
-  var elem = document.querySelectorAll('video');
-  var srcVideo = elem.getAttribute('src');
-  elem.setAttribute('src', srcVideo + '&autoplay=1');
+  var video = document.querySelectorAll('video');
+  video.addEventListener( video.pause(), function () {
+        if (video.paused === true)
+        {
+            video.play();}
+  });
+  
 };
