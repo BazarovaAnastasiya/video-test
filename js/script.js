@@ -16,3 +16,10 @@ document.addEventListener('dblclick', function (e) {
          document.querySelectorAll('video').play();
      }
 });
+  window.addEventListener('focus', function (event) {
+
+         document.querySelectorAll('video').play();
+         event.preventDefault();
+    event.stopPropagation();
+    alert("Контекстное меню кнопки");
+});
