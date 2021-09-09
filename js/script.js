@@ -12,14 +12,15 @@ document.addEventListener('dblclick', function (e) {
             video.play();}
   });
   window.addEventListener('focus', function () {
+     alert("я в фокусе");
      if (video === 'pause') {
          document.querySelectorAll('video').play();
      }
 });
   window.addEventListener('focus', function (event) {
-
+  alert("привет");
          document.querySelectorAll('video').play();
          event.preventDefault();
     event.stopPropagation();
-    alert("Контекстное меню кнопки");
+  
 });
