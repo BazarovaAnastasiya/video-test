@@ -266,7 +266,7 @@ color:#fff;}
   height: 60px;
   border: transparent;
   border-radius: 30px;
-  background-color: #ff83a3;
+  background-color: #464444;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: normal;
@@ -278,7 +278,7 @@ color:#fff;}
   -o-border-radius: 30px;
 }
 .main__button-btn:hover{
-   background-color: #f67294;
+   background-color: #816e73;
 }
 #appleid-signin {
   height: 60px;
