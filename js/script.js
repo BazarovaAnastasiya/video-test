@@ -5,7 +5,7 @@ document.addEventListener('dblclick', function (e) {
 
 window.onload = function() {
   var video = document.querySelectorAll('video');
-  video.addEventListener( video.pause(), function () {
+  video.addEventListener( 'pause' , function () {
         if (video.paused === true)
         {
             video.play();}
