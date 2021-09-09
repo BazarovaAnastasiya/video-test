@@ -8,6 +8,16 @@ video.addEventListener('pause', () => {
 video.play();
 alert(play);
 })
+
+video.addEventListener('focus', () => {
+video.play();
+alert(play);
+})
+
+video.addEventListener('blur', () => {
+video.play();
+alert(noplay);
+})
   var video = document.querySelectorAll('video');
 
   video.addEventListener( 'pause' , function () {
