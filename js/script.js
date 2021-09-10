@@ -4,10 +4,14 @@ document.addEventListener('dblclick', function (e) {
 
 let video = document.getElementById('video');
 
-video.addEventListener('canplay', function(e) {
-this.play();
-}, false);
+// video.addEventListener('canplay', function(e) {
+// this.play();
+// }, false);
 
+
+window.addEventListener('focus', () => {
+video.play();
+}) 
 
 // video.addEventListener('pause', () => {
 // video.play();
