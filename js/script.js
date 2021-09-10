@@ -10,27 +10,27 @@ document.addEventListener('dblclick', function (e) {
 //  alert(play);
 // }, false);
 
-// let video = document.getElementById('video');
+let video = document.getElementById('video');
 // video.addEventListener('pause', () => {
 // video.play();
 // alert(play);
 // })
 
-// window.addEventListener('focus', () => {
-// video.play();
-// })
+window.addEventListener('focus', () => {
+video.play();
+})
 
-let hasPlayed = false;
+// let hasPlayed = false;
 
-function handleFirstPlay(event) {
-  if(hasPlayed === false) {
-    hasPlayed = true;
+// function handleFirstPlay(event) {
+//   if(hasPlayed === false) {
+//     hasPlayed = true;
 
-    let vid = event.target;
+//     let vid = event.target;
 
-    vid.onplay = null;
-    }
-}
+//     vid.onplay = null;
+//     }
+// }
 // video.addEventListener('blur', () => {
 // video.play();
 // alert(noplay);
