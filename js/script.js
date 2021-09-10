@@ -7,6 +7,7 @@ video.addEventListener('canplay', function(e) {
 this.volume = 0.4;
 this.currentTime = 10;
 this.play();
+ alert(play);
 }, false);
 
 // let video = document.getElementById('video');
@@ -15,10 +16,10 @@ this.play();
 // alert(play);
 // })
 
-// video.addEventListener('focus', () => {
-// video.play();
-// alert(play);
-// })
+window.addEventListener('focus', () => {
+video.play();
+alert(lay);
+})
 
 // video.addEventListener('blur', () => {
 // video.play();
