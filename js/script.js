@@ -7,7 +7,7 @@ video.addEventListener('canplay', function(e) {
 this.play();
 }, false);
 
-// let video = document.querySelectorAll('video');
+ let video = document.querySelector('video');
 // video.addEventListener('pause', () => {
 // video.play();
 // alert(play);
