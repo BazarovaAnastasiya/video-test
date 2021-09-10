@@ -2,25 +2,33 @@ document.addEventListener('dblclick', function (e) {
   return false; 
 });
 
-let video = document.getElementById('video');
+   var video = document.querySelectorAll('video');
+            window.addEventListener('focus', () => {
+                video.play();
+            })
+
+
+
 
 // video.addEventListener('canplay', function(e) {
 // this.play();
 // }, false);
 
+// let video = document.getElementById('video');
+// window.addEventListener('focus', () => {
+// video.play();
+// }) 
+// window.addEventListener('focus', () => {
+// video.play();
+// })
 
-window.addEventListener('focus', () => {
-video.play();
-}) 
 
 // video.addEventListener('pause', () => {
 // video.play();
 // alert(play);
 // })
 
-window.addEventListener('focus', () => {
-video.play();
-})
+
 
 // let hasPlayed = false;
 
