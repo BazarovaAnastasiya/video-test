@@ -16,20 +16,21 @@ document.addEventListener('dblclick', function (e) {
 // alert(play);
 // })
 
-window.addEventListener('focus', () => {
-video.play();
-})
+// window.addEventListener('focus', () => {
+// video.play();
+// })
 
-// let hasPlayed = false;
-// function handleFirstPlay(event) {
-//   if(hasPlayed === false) {
-//     hasPlayed = true;
+let hasPlayed = false;
 
-//     let vid = event.target;
+function handleFirstPlay(event) {
+  if(hasPlayed === false) {
+    hasPlayed = true;
 
-//     vid.onplay = null;
-//     }
-// }
+    let vid = event.target;
+
+    vid.onplay = null;
+    }
+}
 // video.addEventListener('blur', () => {
 // video.play();
 // alert(noplay);
