@@ -7,14 +7,14 @@ video.addEventListener('canplay', function(e) {
 this.play();
 }, false);
 
- let video = document.querySelector('video');
+ 
 // video.addEventListener('pause', () => {
 // video.play();
 // alert(play);
 // })
-
+let myVideo = document.querySelector('video');
 window.addEventListener('focus', () => {
-video.play();
+myVideo.play();
 })
 
 // let hasPlayed = false;
