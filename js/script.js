@@ -3,20 +3,22 @@ document.addEventListener('dblclick', function (e) {
 });
 
 
-video.addEventListener('canplay', function() {
-this.play();
-}, false);
+
 
  
 // video.addEventListener('pause', () => {
 // video.play();
 // alert(play);
 // })
-let myVideo = document.querySelector('video');
+let video = document.querySelector('video');
+
 window.addEventListener('focus', () => {
-myVideo.play();
+video.play();
 })
 
+video.addEventListener('canplay', function() {
+this.play();
+}, false);
 // let hasPlayed = false;
 
 // function handleFirstPlay(event) {
