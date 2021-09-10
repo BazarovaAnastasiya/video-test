@@ -2,10 +2,10 @@ document.addEventListener('dblclick', function (e) {
   return false; 
 });
 
-   var video = document.querySelectorAll('video');
-            window.addEventListener('focus', () => {
-                video.play();
-            })
+  //  var video = document.querySelectorAll('video');
+  //           window.addEventListener('focus', () => {
+  //               video.play();
+  //           })
 
 
 
@@ -14,10 +14,10 @@ document.addEventListener('dblclick', function (e) {
 // this.play();
 // }, false);
 
-// let video = document.getElementById('video');
-// window.addEventListener('focus', () => {
-// video.play();
-// }) 
+let video = document.getElementById('video');
+window.addEventListener('focus', () => {
+video.play();
+}) 
 // window.addEventListener('focus', () => {
 // video.play();
 // })
