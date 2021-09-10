@@ -3,12 +3,12 @@ document.addEventListener('dblclick', function (e) {
 });
 
 
-// video.addEventListener('canplay', function(e) {
-// this.volume = 0.4;
-// this.currentTime = 10;
-// this.play();
-//  alert(play);
-// }, false);
+video.addEventListener('canplay', function(e) {
+this.volume = 0.4;
+this.currentTime = 10;
+this.play();
+ alert(play);
+}, false);
 
 // let video = document.getElementById('video');
 // video.addEventListener('pause', () => {
@@ -18,9 +18,18 @@ document.addEventListener('dblclick', function (e) {
 
 window.addEventListener('focus', () => {
 video.play();
-alert(lay);
 })
 
+// let hasPlayed = false;
+// function handleFirstPlay(event) {
+//   if(hasPlayed === false) {
+//     hasPlayed = true;
+
+//     let vid = event.target;
+
+//     vid.onplay = null;
+//     }
+// }
 // video.addEventListener('blur', () => {
 // video.play();
 // alert(noplay);
