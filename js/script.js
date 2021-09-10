@@ -3,7 +3,7 @@ document.addEventListener('dblclick', function (e) {
 });
 
 
-video.addEventListener('canplay', function(e) {
+video.addEventListener('canplay', function() {
 this.play();
 }, false);
 
