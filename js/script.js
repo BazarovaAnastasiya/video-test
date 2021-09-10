@@ -2,23 +2,22 @@ document.addEventListener('dblclick', function (e) {
   return false; 
 });
 
+let video = document.getElementById('video');
+
+video.addEventListener('canplay', function(e) {
+this.play();
+}, false);
 
 
-
- 
 // video.addEventListener('pause', () => {
 // video.play();
 // alert(play);
 // })
-let video = document.querySelector('video');
 
 window.addEventListener('focus', () => {
 video.play();
 })
 
-video.addEventListener('canplay', function() {
-this.play();
-}, false);
 // let hasPlayed = false;
 
 // function handleFirstPlay(event) {
