@@ -2,27 +2,13 @@ document.addEventListener('dblclick', function (e) {
   return false; 
 });
 
-<<<<<<< HEAD
    var video = document.querySelector('video');
             window.addEventListener('focus', () => {
                 video.play();
             })
-=======
-   //var video = document.querySelector('video');
-  //           window.addEventListener('focus', () => {
-  //               video.play();
-  //           })
->>>>>>> f4b15bd9d411ec12e9848005c976241db3c5602f
-
-
-
 
 video.addEventListener('canplay', function(e) {
-<<<<<<< HEAD
 this.play();
-=======
- this.play();
->>>>>>> f4b15bd9d411ec12e9848005c976241db3c5602f
 }, false);
 
 // let video = document.getElementById('video');
