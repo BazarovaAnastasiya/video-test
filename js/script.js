@@ -5,11 +5,20 @@ document.addEventListener('dblclick', function (e) {
    var video = document.querySelector('video');
             window.addEventListener('focus', () => {
                 video.play();
-            })
-
+       
 video.addEventListener('canplay', function(e) {
 this.play();
 }, false);
+     })
+
+//    var video = document.querySelector('video');
+//             window.addEventListener('focus', () => {
+//                 video.play();
+//             })
+
+// video.addEventListener('canplay', function(e) {
+// this.play();
+// }, false);
 
 // let video = document.getElementById('video');
 // window.addEventListener('focus', () => {
