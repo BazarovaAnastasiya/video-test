@@ -2,7 +2,7 @@ document.addEventListener('dblclick', function (e) {
   return false; 
 });
 
-   var video = document.querySelector('video');
+   //var video = document.querySelector('video');
   //           window.addEventListener('focus', () => {
   //               video.play();
   //           })
@@ -14,7 +14,7 @@ video.addEventListener('canplay', function(e) {
  this.play();
 }, false);
 
-//let video = document.getElementById('video');
+let video = document.getElementById('video');
 window.addEventListener('focus', () => {
 video.play();
 }) 
