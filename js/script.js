@@ -2,7 +2,7 @@ document.addEventListener('dblclick', function (e) {
   return false; 
 });
 
-//    var video = document.querySelector('video');
+   var video = document.querySelector('video');
 //             window.addEventListener('focus', () => {
 //                 video.play();
        
@@ -12,20 +12,25 @@ document.addEventListener('dblclick', function (e) {
 //      })
 
 //    var video = document.querySelector('video');
-//             window.addEventListener('click', () => {
-//              alert(play);
-//                 video.play();
-                
-                
-//             })
+            window.addEventListener('click', () => {
+             alert(click);
+                // video.play(); 
+            })
 // //   var video = document.querySelector('video');
-// //            window.addEventListener('focus', () => {
-// //                video.play();
-//  //      
-// //video.addEventListener('canplay', function(e) {
-// //this.play();
-// //}, false);
-// //     })
+           window.addEventListener('focus', () => {
+              alert(focus);
+              //  video.play();
+       })
+video.addEventListener('canplay', function(e) {
+  alert(canplay);
+// this.play();
+}, false);
+   
+video.addEventListener('pause', () => {
+// video.play();
+alert(play);
+})
+
 
 // //    var video = document.querySelector('video');
 // //              window.addEventListener('focus', () => {
@@ -45,10 +50,6 @@ document.addEventListener('dblclick', function (e) {
 //  }, false);
 
 
-// video.addEventListener('pause', () => {
-// video.play();
-// alert(play);
-// })
 
 
 
