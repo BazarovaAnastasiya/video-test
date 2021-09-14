@@ -11,13 +11,13 @@ document.addEventListener('dblclick', function (e) {
 // }, false);
 //      })
 
-   var video = document.querySelector('video');
-            window.addEventListener('click', () => {
-             alert(play);
-                video.play();
+  //  var video = document.querySelector('video');
+  //           window.addEventListener('click', () => {
+  //            alert(play);
+  //               video.play();
                 
                 
-            })
+  //           })
 //   var video = document.querySelector('video');
 //            window.addEventListener('focus', () => {
 //                video.play();
