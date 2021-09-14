@@ -24,7 +24,6 @@ document.addEventListener('dblclick', function (e) {
 // }, false);
    
 video.addEventListener('pause', () => {
-alert("paus");
 video.play();
 })
 
