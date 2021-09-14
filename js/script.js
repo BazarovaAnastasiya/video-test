@@ -23,21 +23,24 @@ document.addEventListener('dblclick', function (e) {
 // // this.play();
 // }, false);
    
-
-// рабочий
-// video.addEventListener('pause', () => {
-//    alert("canplay");
-// video.play();
-// })
+video.addEventListener('pause', () => {
+  alert('Video Playing');
+video.play();
+})
 
  window.addEventListener('focus', () => {
        video.play();
-        if (video.paused) {
-             alert("canplay");
-                  video.play();
-                  console.log('Video Playing');
-                }
 });
+
+
+//  window.addEventListener('focus', () => {
+//        video.play();
+//         if (video.paused) {
+//              alert("canplay");
+//                   video.play();
+//                   console.log('Video Playing');
+//                 }
+// });
 
 // //    var video = document.querySelector('video');
 //              window.addEventListener('focus', () => {
