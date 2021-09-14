@@ -23,13 +23,13 @@ document.addEventListener('dblclick', function (e) {
 // // this.play();
 // }, false);
    
-video.addEventListener('pause', () => {
-video.play();
-})
+// video.addEventListener('pause', () => {
+// video.play();
+// })
 
  window.addEventListener('focus', () => {
        video.play();
-}, false);
+});
 
 // //    var video = document.querySelector('video');
 //              window.addEventListener('focus', () => {
