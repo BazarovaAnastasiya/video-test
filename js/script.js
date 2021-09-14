@@ -18,18 +18,17 @@ document.addEventListener('dblclick', function (e) {
             })
 // //   var video = document.querySelector('video');
            window.addEventListener('focus', () => {
-              alert("focus");
-              //  video.play();
+               video.play();
       }, false);
-      
+
 video.addEventListener('canplay', function(e) {
   alert("canplay");
 // this.play();
 }, false);
    
 video.addEventListener('pause', () => {
-video.play();
 alert("paus");
+video.play();
 })
 
 
