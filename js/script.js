@@ -27,10 +27,13 @@ video.addEventListener('pause', () => {
 video.play();
 })
 
+ window.addEventListener('focus', () => {
+       video.play();
+}, false);
 
 // //    var video = document.querySelector('video');
-// //              window.addEventListener('focus', () => {
-// //                 video.play();             })
+//              window.addEventListener('focus', () => {
+//                 video.play();             })
 
 
 // //  video.addEventListener('canplay', function(e) {
