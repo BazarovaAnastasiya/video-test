@@ -18,24 +18,37 @@ document.addEventListener('dblclick', function (e) {
                 
                 
             })
+//   var video = document.querySelector('video');
+//            window.addEventListener('focus', () => {
+//                video.play();
+ //      
+//video.addEventListener('canplay', function(e) {
+//this.play();
+//}, false);
+//     })
 
-// video.addEventListener('canplay', function(e) {
-// this.play();
-// }, false);
-
-// let video = document.getElementById('video');
-// window.addEventListener('focus', () => {
-// video.play();
-// }) 
-// window.addEventListener('focus', () => {
-// video.play();
-// })
+//    var video = document.querySelector('video');
+//              window.addEventListener('focus', () => {
+//                 video.play();             })
 
 
-// video.addEventListener('pause', () => {
-// video.play();
-// alert(play);
-// })
+//  video.addEventListener('canplay', function(e) {
+//  this.play();
+//  }, false);
+
+let video = document.getElementById('video');
+window.addEventListener('focus', () => {
+video.play();
+}) 
+ video.addEventListener('canplay', function(e) {
+ this.play();
+ }, false);
+
+
+video.addEventListener('pause', () => {
+video.play();
+alert(play);
+})
 
 
 
