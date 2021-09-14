@@ -30,6 +30,7 @@ document.addEventListener('dblclick', function (e) {
  window.addEventListener('focus', () => {
        video.play();
        if(video.paused){
+         alert("pays");
         video().play();
     }
 });
