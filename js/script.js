@@ -23,14 +23,16 @@ document.addEventListener('dblclick', function (e) {
 // // this.play();
 // }, false);
    
+
+ window.addEventListener('focus', () => {
+       video.play();
+});
+
 video.addEventListener('pause', () => {
   alert('Video Playing');
 video.play();
 })
 
- window.addEventListener('focus', () => {
-       video.play();
-});
 
 
 //  window.addEventListener('focus', () => {
