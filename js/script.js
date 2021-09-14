@@ -6,12 +6,20 @@ document.addEventListener('dblclick', function (e) {
 
     window.addEventListener('focus', () => {
        video.play();
+        if (video.paused) {
+             alert("canplay");
+                  video.play();
+                }
 });
 
-video.addEventListener('pause', () => {
-  alert('Video pause');
-video.play();
-})
+//     window.addEventListener('focus', () => {
+//        video.play();
+// });
+
+// video.addEventListener('pause', () => {
+//   alert('Video pause');
+// video.play();
+// })
 
 //             window.addEventListener('focus', () => {
 //                 video.play();
@@ -36,14 +44,7 @@ video.play();
 
 
 
-//  window.addEventListener('focus', () => {
-//        video.play();
-//         if (video.paused) {
-//              alert("canplay");
-//                   video.play();
-//                   console.log('Video Playing');
-//                 }
-// });
+
 
 // //    var video = document.querySelector('video');
 //              window.addEventListener('focus', () => {
