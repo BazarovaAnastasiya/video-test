@@ -13,22 +13,22 @@ document.addEventListener('dblclick', function (e) {
 
 //    var video = document.querySelector('video');
             window.addEventListener('click', () => {
-             alert(click);
+             alert("click");
                 // video.play(); 
             })
 // //   var video = document.querySelector('video');
            window.addEventListener('focus', () => {
-              alert(focus);
+              alert("focus");
               //  video.play();
        })
 video.addEventListener('canplay', function(e) {
-  alert(canplay);
+  alert("canplay");
 // this.play();
 }, false);
    
 video.addEventListener('pause', () => {
 // video.play();
-alert(play);
+alert("paus");
 })
 
 
