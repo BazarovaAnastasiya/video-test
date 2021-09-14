@@ -29,6 +29,9 @@ document.addEventListener('dblclick', function (e) {
 
  window.addEventListener('focus', () => {
        video.play();
+       if(video.paused){
+        video().play();
+    }
 });
 
 // //    var video = document.querySelector('video');
