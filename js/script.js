@@ -20,14 +20,15 @@ document.addEventListener('dblclick', function (e) {
            window.addEventListener('focus', () => {
               alert("focus");
               //  video.play();
-       })
+      }, false);
+      
 video.addEventListener('canplay', function(e) {
   alert("canplay");
 // this.play();
 }, false);
    
 video.addEventListener('pause', () => {
-// video.play();
+video.play();
 alert("paus");
 })
 
