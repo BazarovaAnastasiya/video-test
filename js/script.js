@@ -23,13 +23,20 @@ document.addEventListener('dblclick', function (e) {
 // // this.play();
 // }, false);
    
-video.addEventListener('pause', () => {
-   alert("canplay");
-video.play();
-})
+
+// рабочий
+// video.addEventListener('pause', () => {
+//    alert("canplay");
+// video.play();
+// })
 
  window.addEventListener('focus', () => {
        video.play();
+        if (video.paused) {
+             alert("canplay");
+                  video.play();
+                  console.log('Video Playing');
+                }
 });
 
 // //    var video = document.querySelector('video');
